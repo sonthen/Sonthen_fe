@@ -1,0 +1,48 @@
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-color: rgb(104, 120, 116);
+}
+.myClassParent{
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border: 5px solid red;
+}
+.myClass{
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-color: white;
+  background-color: aquamarine;
+
+  margin: 20px;
+  padding:  0px 0px 0px 50px;
+  padding-left: 50px;
+
+  height: 10em;
+  width: 50%;
+
+  max-height: 200px;
+  outline-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  line-height: 2;
+
+  position: absolute;
+  bottom: 0;
+}
+.menu li{
+  display: inline;
+  background-color: red;
+  margin-right: 10px;
+}
+.menu{
+  background-color: aquamarine;
+}
+
+.menu li a{
+  text-decoration: none;
+}
